@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DictionaryEx.cs" />
+    <Compile Remove="GenericClassEx.cs" />
+    <Compile Remove="GenericListEx1.cs" />
+    <Compile Remove="GenericListEx2.cs" />
+    <Compile Remove="GenericMethodEx.cs" />
+    <Compile Remove="PlantingTrees.cs" />
+  </ItemGroup>
+
+</Project>
