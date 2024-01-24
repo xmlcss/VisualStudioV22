@@ -67,4 +67,6 @@ namespace Cha6ArrayListEx
             manager.DisplayAnimals(); // 输出：Name: 猫咪, Type: 猫  
         }
     }
+
+
 }

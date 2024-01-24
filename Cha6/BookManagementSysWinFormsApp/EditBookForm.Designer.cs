@@ -85,6 +85,7 @@
             // 
             bookIdTxt.Location = new Point(360, 40);
             bookIdTxt.Name = "bookIdTxt";
+            bookIdTxt.ReadOnly = true;
             bookIdTxt.Size = new Size(139, 23);
             bookIdTxt.TabIndex = 20;
             // 
@@ -170,7 +171,6 @@
             Controls.Add(label1);
             Name = "EditBookForm";
             Text = "EditBookForm";
-            Load += EditBookForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

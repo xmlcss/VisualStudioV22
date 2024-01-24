@@ -173,10 +173,9 @@ namespace BookManagementSysWinFormsApp
             }
             //跳转到编辑图书的界面(修改的图书）
 
-            //EditBookForm ebf1 = new EditBookForm();//实例化editBookForm窗体，
+            //实例化editBookForm窗体，
             EditBookForm ebf1 = new EditBookForm(editBook);
             
-
             ebf1.ShowDialog();
             //接受修改之后的返回的书籍
 
